@@ -18,10 +18,12 @@ Groq LLM API (Large Language Model inference)
 PyPDF2 (PDF text extraction)
 Flask-CORS (Cross-origin support)
 python-dotenv (Secure API key handling)
+
 Frontend
 HTML5
 CSS3 (Custom UI styling)
 JavaScript (Fetch API for backend communication)
+
 Version Control
 Git & GitHub
 
