@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Text & PDF Summarizer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+
+        <h1>📄 AI Text & PDF Summarizer</h1>
+
+        <!-- TEXT INPUT -->
+        <label for="textInput">Paste Text (optional)</label>
+        <textarea
+            id="textInput"
+            placeholder="Paste your text here..."
+            rows="6"
+        ></textarea>
+
+        <!-- PDF INPUT -->
+        <label for="pdfInput">Upload PDF (optional)</label>
+        <input
+            type="file"
+            id="pdfInput"
+            accept="application/pdf"
+        >
+
+        <!-- MODE -->
+        <label for="mode">Summary Mode</label>
+        <select id="mode">
+            <option value="normal">Normal</option>
+            <option value="bullet">Bullet</option>
+        </select>
+
+        <!-- BUTTON -->
+        <button id="summarizeBtn" type="button">
+            Summarize
+        </button>
+
+        <!-- OUTPUT -->
+        <h3>Summary</h3>
+        <div id="output" class="output-box">
+            Your summary will appear here...
+        </div>
+
+        <footer>
+            Built with Flask + Groq LLM
+        </footer>
+
+    </div>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
